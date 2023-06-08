@@ -61,6 +61,56 @@
                 <use href="./images/icons.svg#icon-Vector"></use>
               </svg>
             </button>
+            <h3>Zostaw swoje dane w formularzu poniżej</h3>
+            <form class="modal-form" action="">
+              <div class="modal-contacts">
+                <label for="name">
+                  <span class="modal-label"> Imię</span>
+                </label>
+                <input
+                  class="modal-input"
+                  id="name"
+                  type="text"
+                  name="username"
+                />
+                <label for="phone"
+                  ><span class="modal-label">Telefon</span></label
+                >
+                <input
+                  class="modal-input"
+                  id="phone"
+                  type="tel"
+                  name="phone_number"
+                />
+                <label for="mail"><span class="modal-label">Email</span></label>
+                <input
+                  class="modal-input"
+                  id="mail"
+                  type="email"
+                  name="email"
+                />
+                <label for="comment"
+                  ><span class="modal-label">Komentarz</span></label
+                >
+                <textarea
+                  class="modal-textarea"
+                  name="comment"
+                  id="comment"
+                  rows="10"
+                  placeholder="Wprowadź tekst"
+                ></textarea>
+              </div>
+              <div class="checkbox-setup">
+                <input id="modal-checkbox" type="checkbox" />
+                <label for="modal-checkbox">
+                  Oświadczam iz akceptuję <a href="">Regulamin</a> i
+                  <a href="">Politykę Prywatności</a></label
+                >
+              </div>
+              <button class="modal-submit-button" type="submit">
+                <span class="">Wyślij</span>
+              </button>
+            </form>
           </div>
         </div>
       </section>
@@ -379,6 +429,26 @@
               </svg>
             </li>
           </ul>
+        </div>
+        <div class="footer-form">
+          <form action="">
+            <label for="footer-email">
+              <h3>Zapisz się do newslettera</h3></label
+            >
+            <input
+              class="footer-email-input"
+              id="footer-email"
+              type="email"
+              name="newsletter"
+              placeholder="E-mail"
+            />
+          </form>
+          <button class="footer-submit-button" type="submit">
+            <span class="footer-submit-text">Zapisz się</span>
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
