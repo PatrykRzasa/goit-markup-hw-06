@@ -675,12 +675,10 @@ label > h3 {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input-div:hover > .modal-input,
-.modal-input-div:focus > .modal-input {
+.modal-input:focus-within {
   border-color: var(--hover-color);
 }
-.modal-input-div:hover > svg,
-.modal-input-div:focus > svg {
+.modal-input-div:focus-within > svg {
   fill: var(--hover-color);
 }
 
